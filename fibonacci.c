@@ -14,7 +14,7 @@ int fibo(int n )
       }
     }
 int main(){
-    printf("Fibonacchi Series in 8th position  : ");
+    printf("the number that is at the 8th position of the fibonacci series is  : ");
     int z=fibo(8);
     printf("%d",z);
     return 0;
