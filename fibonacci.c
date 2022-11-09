@@ -14,8 +14,10 @@ int fibo(int n )
       }
     }
 int main(){
-    printf("the number that is at the 8th position of the fibonacci series is  : ");
-    int z=fibo(8);
-    printf("%d",z);
+    int e;
+    printf("which position of Fibonacci series do you want to find out ?\n");
+    scanf("%d",&e);
+    int z=fibo(e);
+    printf("The digit is :%d",z);
     return 0;
 }
